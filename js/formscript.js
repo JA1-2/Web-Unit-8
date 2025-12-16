@@ -35,5 +35,5 @@ URL.revokeObjectURL(url);
 
 function thanks() {
     // Redirect to another page after download
-    window.location.href = 'thank-you.html'; // Replace with your desired URL
+    window.location.href = 'thank-you.html';
 }
