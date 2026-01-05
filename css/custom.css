@@ -1,0 +1,50 @@
+html, body {
+  background-color: white;
+  
+}
+
+.custom-header {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 20%;
+  padding: 5px;
+}
+
+/* Footer CSS */
+/* Footer styling similar to navbar */
+footer {
+background-color: limegreen; /* sky blue background */
+color: white; /* white text for contrast */
+font-family: 'open sans'; /* playful font */
+text-align: center; /* centre content */
+padding: 1.5rem 1rem; /* comfortable spacing */
+}
+/* Paragraph and small text inside footer */
+footer p {
+margin: 0;
+font-size: 1rem;
+font-weight: bold;
+}
+footer small {
+display: block;
+margin-top: 0.5rem;
+font-size: 0.9rem;
+}
+/* Social icons specific spacing (optional) */
+.site-footer .social-links i {
+margin-left: 5px;
+}
+
+/* Navbar CSS */
+/* Navbar background: bright sky blue */
+.navbar-custom {
+background-color: limegreen; 
+font-family: 'open sans';
+color: white;
+}

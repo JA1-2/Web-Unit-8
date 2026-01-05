@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Billiards, Pool, Tournament, Table, Cue, Balls">
+    <meta name="keywords" content="Billiards, Pool, Tournaments, Table, Cue, Balls">
+    <title>Bold Billiards</title>
+    <link href="css/custom.css" rel="stylesheet"> 
+    <link href="bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <!--Local link javascript-->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+   <img src="images/logo.png" width="70" height="50" alt="Billiards Cue"> <h1 style="color:rgb(9, 255, 0);" class="text-center" text-font="Open sans">Bold Billiards</h1>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!-- Font Awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+ <body class="p-3 m-0 border-0 bd-example m-0 border-0"></body>
+<!-- Navbar HTML-->
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+<div class="container-fluid">
+<!-- Brand -->
+<a class="navbar-brand fw-bold" href="index.html">Bold Billiards</a>
+<!-- Toggler -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Nav links -->
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+<li class="nav-item"><a class="nav-link" href="staff-profiles.html">Staff Profiles</a></li>
+<li class="nav-item"><a class="nav-link" href="equipment.html">Equipment</a></li>
+<li class="nav-item"><a class="nav-link" href="upcoming-events.html">Upcoming Events</a></li>
+<li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!--Main-->
+<div class="container">
+<h2 class="text-center" style="color:rgb(0, 255, 200);" text-font="Open sans">Contact Us</h2>
+<hr>
+<h3 class="text-center" text-font="Open sans">Contact Us Form</h3>
+<hr>
+
+<div class="container-fluid d-flex justify-content-center">
+
+<form id="myForm" style="width: 450px;" class="was-validated" onsubmit="myFormSubmits(event)">
+
+  <!--Select Title-->
+  <div class="form-group">
+    <label for="nameTitle" text-font="Open sans">Title</label>
+    <select id="nameTitle" class="form-control" name="Title " required>
+      <option value="" text-font="Open sans">Please select a title.</option>
+      <option value="MR" text-font="Open sans">Mr.</option>
+      <option value="MISS" text-font="Open sans">Miss.</option>
+      <option value="MRS" text-font="Open sans">Mrs.</option>
+      <option value="DR" text-font="Open sans">Dr.</option>
+    </select>
+    <div class="valid-feedback" text-font="Open sans">Valid.</div>
+    <div class="invalid-feedback" text-font="Open sans">Please fill out this field</div> 
+  </div>
+
+ <!--Full Name-->
+ <div class="form-group">
+    <label for="fullName" text-font="Open sans">Full Name</label>
+    <input type="text" class="form-control" id="fullName" name="Full Name " placeholder="Please enter your full name" required>
+    <div class="valid-feedback" text-font="Open sans">Valid.</div>
+    <div class="invalid-feedback" text-font="Open sans">Please fill out this field.</div>
+  </div>
+
+<!--Email-->
+<div class="form-group">
+  <label for="email" text-font="Open sans">Email Adddress</label>
+  <input type="email" class="form-control" id="email" placeholder="Please enter your email" name="Email " required>
+  <div class="valid-feedback" text-font="Open sans">Valid.</div>
+  <div class="invalid-feedback" text-font="Open sans">Please fill out this field.</div>
+  </div>
+
+<!--Phone Number-->
+<div class="form-group">
+  <label for="phoneNumber" text-font="Open sans">Phone Number</label>
+  <input type="tel" class="form-control" id="phoneNumber" placeholder="Please enter your phone number" name="Phone Number " required>
+  <div class="valid-feedback" text-font="Open sans">Valid.</div>
+  <div class="invalid-feedback" text-font="Open sans">Please fill out this field.</div>
+  </div>
+
+  <!--Address-->
+<div class="form-group">
+  <label for="address" text-font="Open sans">Reason for Contacting</label>
+  <textarea class="form-control" id="address" rows="3" placeholder="Reason for contacting" name="Contact Reason " required></textarea>
+  <div class="valid-feedback" text-font="Open sans">Valid.</div>
+  <div class="invalid-feedback" text-font="Open sans">Please fill out this field.</div>
+  </div>
+
+  <!--Buttons-->
+<div class="form-group text-center">
+    <button type="submit" class="btn btn-success" text-font="Open sans">Submit</button>
+    <button type="reset" class="btn btn-secondary" text-font="Open sans">Reset</button>
+</div>
+</form>
+</div>
+</div>
+<!--Main End-->
+
+<script src="js/formScript.js"></script>
+
+
+</div>
+</body>
+<br>
+  <!-- Footer HTML-->
+<!-- Footer -->
+<footer>
+<p>&copy; 2025 Bold Billiards | Serving Derry &amp; surrounding areas</p>
+<small>Fully insured • Safety certified • Contact: info@boldbilliards.com</small>
+<!-- Social Media Links -->
+<div class="mt-2">
+<a href="https://www.facebook.com/BoldBilliards" class="text-white mx-2" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page"> <i class="fab fa-facebook fa-lg"></i> </a>
+<a href="https://www.instagram.com/boldbilliards" class="text-white mx-2" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram profile"> <i class="fab fa-instagram fa-lg"></i> </a>
+</div>
+</footer>
+</html>
