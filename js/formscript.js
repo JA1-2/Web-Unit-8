@@ -2,7 +2,7 @@ function myFormSubmits(event) {
     event.preventDefault(); // Prevent the defult form submission
 
     // Call the custom functions you want to execute before submitting the form
-    //downloadFormData();
+    downloadFormData();
     thanks();
 }
 
@@ -12,7 +12,7 @@ function downloadFormData() {
     let dataString='';
 
     for(let [key, value] of formData.entries()) {
-        dataString =+ `${key}: ${vlaue}\n`;
+        dataString += `${key}: ${vlaue}\n`;
     }
 
 // Create a blob from the data string
