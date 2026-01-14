@@ -48,3 +48,20 @@ background-color: limegreen;
 font-family: 'open sans';
 color: white;
 }
+
+.text-middle {
+position: absolute;
+  top: 0;
+  bottom: 25%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  color: white;
+  text-justify: center;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
