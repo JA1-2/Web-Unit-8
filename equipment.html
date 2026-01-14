@@ -51,24 +51,20 @@
 </nav>
 <!--End of Nav section-->
 
-<!--Start of tabs Section-->
 <h2 class="text-center" style="color:rgb(0, 255, 200);" text-font="Open sans">Equipment</h2>
 
-<ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="equipment.html">Cue</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="balls.html">Balls</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="tables.html">Tables</a>
-  </li>
-</ul>
-<!--End of tabs Section-->
-
-<!--Start of table section-->
-<table class="table">
+<!--Start of tabs section-->
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Cues</button>
+    <button class="nav-link" id="nav-profile-tab" data-toggle="tab" data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Balls</button>
+    <button class="nav-link" id="nav-contact-tab" data-toggle="tab" data-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Tables</button>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    <!--Start of table section-->
+    <table class="table">
   <tbody>
     <tr>
       <th scope="row"></th>
@@ -89,7 +85,51 @@
   </tbody>
 </table>
 <!--End of table section-->
+  </div>
 
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+    <!--Start of table section-->
+    <table class="table">
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td><center><img src="images/balls.png" width="200" height="200" alt="Billiards Balls"></center>
+     <Center text-font="Open sans">Billiards Marbleised Balls Set</Center>
+    <Center text-font="Open sans">£49.99</Center></td>
+        <td><center><img src="images/balls-2.png" width="200" height="200" alt="Billiards Balls"></center>
+       <Center text-font="Open sans">Aramish Billiards Balls</Center>
+    <Center text-font="Open sans">£39.99</Center></td>   
+        <td><center><img src="images/balls-3.png" width="200" height="200" alt="Billiards Balls"></center>
+    <Center text-font="Open sans">Champion Sport Billiards Balls</Center>
+    <Center text-font="Open sans">£29.99</Center></td>
+    </tr>
+  </tbody>
+</table>
+<!--End of table section-->
+  </div>
+
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+   <!--Start of table section-->
+    <table class="table">
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td><center><img src="images/table.png" width="200" height="200" alt="Billiards Table"></center>
+      <Center text-font="Open sans">7 ft Billiards Table</Center>
+    <Center text-font="Open sans">£499.99</Center></td>
+      <td><center><img src="images/table-2.png" width="200" height="200" alt="Billiards Table"></center>
+       <Center text-font="Open sans">8 ft Dark Walnut Billiards Table</Center>
+    <Center text-font="Open sans">£699.99</Center>
+        <td><center><img src="images/table-3.png" width="200" height="200" alt="Billiards Table"></center>
+         <Center text-font="Open sans">8 ft Dark Oak Billiards Table</Center>
+    <Center text-font="Open sans">£899.99</Center></td>
+    </tr>
+  </tbody>
+</table>
+<!--End of table section-->
+  </div>
+</div>
+<!--End of tabs section-->
 
 </body>
 <br>

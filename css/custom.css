@@ -52,7 +52,9 @@ color: white;
 .text-middle {
 position: absolute;
   top: 0;
-  bottom: 25%;
+  bottom: 80%;
+  left: 25%;
+  Right: 0;
   display: flex;
   text-align: center;
   align-items: center;
@@ -69,6 +71,6 @@ position: absolute;
 .card-mb-3 {
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 10%;
+  padding-top: 2.5%;
   padding-bottom: 0%;
 }

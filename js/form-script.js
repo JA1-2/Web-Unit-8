@@ -2,7 +2,7 @@ function myFormSubmits(event) {
     event.preventDefault(); // Prevent the defult form submission
 
     // Call the custom functions you want to execute before submitting the form
-    downloadFormData();
+    //downloadFormData();
     thanks();
 }
 
