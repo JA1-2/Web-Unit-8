@@ -19,22 +19,25 @@ html, body {
 /* Footer CSS */
 /* Footer styling similar to navbar */
 footer {
-background-color: limegreen; /* sky blue background */
-color: white; /* white text for contrast */
-font-family: 'open sans'; /* playful font */
-text-align: center; /* centre content */
-padding: 1.5rem 1rem; /* comfortable spacing */
+background-color: limegreen;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding: 1.5rem 1rem;
 }
-/* Paragraph and small text inside footer */
-footer p {
+
+.footer p {
 margin: 0;
 font-size: 1rem;
 font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
 }
-footer small {
+
+.footer small {
 display: block;
 margin-top: 0.5rem;
 font-size: 0.9rem;
+font-family: Arial, Helvetica, sans-serif;
 }
 /* Social icons specific spacing (optional) */
 .site-footer .social-links i {
@@ -45,27 +48,64 @@ margin-left: 5px;
 /* Navbar background: bright sky blue */
 .navbar-custom {
 background-color: limegreen; 
-font-family: 'open sans';
+font-family: Arial, Helvetica, sans-serif;
 color: white;
 }
 
 .text-middle {
 position: absolute;
   top: 0;
-  bottom: 80%;
-  left: 25%;
+  bottom: 0;
+  left: 40%;
   Right: 0;
   display: flex;
   text-align: center;
   align-items: center;
   color: white;
   text-justify: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion-button{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion-body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .a:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
+}
+
+.card-img-top{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-mb-3 {
